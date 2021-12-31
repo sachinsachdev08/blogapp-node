@@ -11,7 +11,7 @@ export default function Bollywood(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/blogs/Bollywood')
+        axios.get('/api/v1/blogs/Bollywood')
         .then((res)=>setBackend(res.data));
       }, []);
       console.log(backend)
