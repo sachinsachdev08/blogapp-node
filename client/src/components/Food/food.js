@@ -10,7 +10,7 @@ export default function Food(){
     
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/blogs/Food')
+        axios.get('/api/v1/blogs/Food')
         .then((res)=>setBackend(res.data));
       }, []);
     

@@ -9,7 +9,7 @@ export default function Fitness(){
     const [ backend , setBackend ] = useState([]);
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/blogs/Technology')
+        axios.get('/api/v1/blogs/Technology')
         .then((res)=>setBackend(res.data));
       }, []);
     return(

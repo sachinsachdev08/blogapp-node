@@ -10,7 +10,7 @@ export default function Fitness(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/blogs/Fitness')
+        axios.get('/api/v1/blogs/Fitness')
         .then((res)=>setBackend(res.data));
       }, []);
     return(

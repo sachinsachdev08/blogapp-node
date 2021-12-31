@@ -24,7 +24,7 @@ function BlogPage(props){
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get(`http://localhost:5000/api/v1/${category}/${id}`)
+        axios.get(`/api/v1/${category}/${id}`)
         .then((res)=>setBackend(res.data));
       }, [category,id]);
     return(

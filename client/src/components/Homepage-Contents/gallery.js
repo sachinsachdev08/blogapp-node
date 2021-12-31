@@ -15,7 +15,7 @@ export default function Gallery() {
     console.log(details1)
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/gallery')
+        axios.get('/api/v1/gallery')
         .then((res)=>setBackend(res.data));
       },[]);
       console.log(backend)

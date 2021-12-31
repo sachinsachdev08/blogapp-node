@@ -10,7 +10,7 @@ export default function Latestarticles(){
     const [showMore,setshowMore] = useState(false);
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/latest')
+        axios.get('/api/v1/latest')
         .then((res)=>setBackend(res.data));
       }, []);
     return(

@@ -9,7 +9,7 @@ export default function Toppost(){
     const [showMore,setshowMore] = useState(false);
     useEffect(() => {
         window.scrollTo(0, 0);
-        axios.get('http://localhost:5000/api/v1/top')
+        axios.get('/api/v1/top')
         .then((res)=>setBackend(res.data));
       }, []);
     return(
