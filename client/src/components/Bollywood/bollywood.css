@@ -1,0 +1,16 @@
+.category-flex {
+  width: 48%;
+  margin-left: 11%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.category-div {
+  width: 48%;
+  margin-left: 15%;
+}
+
+.category-hr {
+  width: 48%;
+  margin-left: 11%;
+}

@@ -1,0 +1,85 @@
+.nav-main > a:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav > a {
+  color: black;
+  margin-right: 10%;
+}
+
+.nav {
+  margin-left: 8%;
+}
+.nav-main {
+  text-align: center;
+}
+.rotate {
+  font-size: larger;
+  width: fit-content;
+  transform: rotate(270deg);
+  padding-right: 23px;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.second-nav {
+  display: none;
+}
+
+.siren {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.nav-hr {
+  width: 80%;
+  margin-right: 14%;
+  background-color: lightgrey;
+}
+
+.menu {
+  display: none;
+}
+.res-hr {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+    position: sticky;
+    top: 10px;
+    right: 0;
+    z-index: 101;
+  }
+  .res-hr {
+    display: block;
+    border: 1px solid;
+    background-color: black;
+  }
+
+  .second-nav {
+    display: block;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+  }
+  .second-nav > a {
+    color: black;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .second-nav > a:visited {
+    color: black;
+  }
+}

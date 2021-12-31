@@ -1,0 +1,94 @@
+.latest-flexbox {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  margin-left: 11%;
+}
+
+.advert {
+  margin-left: 3%;
+  border: 2px solid;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-div {
+  width: 60%;
+}
+.img-div1 {
+  width: 35%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.comp-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.comp-desc {
+  margin-left: 5%;
+}
+
+.main-hr {
+  width: 10%;
+  margin-left: 13%;
+  background-color: orange;
+  border: 2px solid orange;
+}
+.main-title {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 13%;
+  margin-block-end: 0;
+}
+
+.comp-title {
+  font-size: larger;
+  font-weight: bold;
+  margin-block-end: 0.3em;
+}
+
+.comp-description {
+  color: gray;
+  font-size: x-small;
+  margin-block-start: 0;
+}
+
+.comp-category {
+  font-size: x-small;
+  color: grey;
+}
+.comp-travel {
+  color: grey;
+  font-weight: bold;
+}
+
+.comp-desc > a {
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .latest-flexbox {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .main-hr {
+    margin-left: 0%;
+  }
+  .main-title {
+    margin-left: 0;
+  }
+  .comp-div {
+    width: 100%;
+  }
+  .advert {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    margin-left: 0%;
+  }
+}

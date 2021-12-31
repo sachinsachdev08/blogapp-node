@@ -1,0 +1,117 @@
+.blog-main {
+  margin-top: 100px;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 30px;
+  background-color: white;
+  padding-bottom: 10px;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+}
+
+.blog-image {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.blog-description {
+  padding: 3%;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.blog-para {
+  padding: 3%;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.blog-likes {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-size: x-small;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.share {
+  color: black;
+  padding-left: 5%;
+  cursor: pointer;
+}
+.blog-likes > p {
+  padding-left: 2%;
+  color: grey;
+}
+
+.tag-flex {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tags {
+  background-color: lightgray;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+.user {
+  height: 70px;
+  width: 90px;
+
+  margin-right: 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.user-flex {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  z-index: -1;
+  padding: 20px;
+  margin-right: 5%;
+  color: darkslateblue;
+  margin-left: 5%;
+}
+.user-flex > div > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.details1 {
+  font-size: small;
+  color: darkslateblue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 650px) {
+  .blog-main {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .tag-flex {
+    width: 100%;
+  }
+  .user-flex {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
